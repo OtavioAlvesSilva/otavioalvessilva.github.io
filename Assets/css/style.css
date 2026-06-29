@@ -765,11 +765,12 @@ header ul .line:hover {
     .banner_album_body {
         flex-direction: column;
         gap: 24px;
-        margin-top: 30px;
+        margin-top: 10px;
     }
 
     .banner_album_img img {
         margin-top: 0px;
+        padding-top: 0px;
         height: 300px;
         width: 300px;
     }
