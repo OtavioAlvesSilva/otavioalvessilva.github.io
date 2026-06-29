@@ -769,6 +769,7 @@ header ul .line:hover {
     }
 
     .banner_album_img img {
+        margin-top: 0px;
         height: 300px;
         width: 300px;
     }
@@ -782,6 +783,7 @@ header ul .line:hover {
     }
 
     .logoSpotify img {
+        margin-top: 20px;
         height: 15px;
         width: 15px;
     }
