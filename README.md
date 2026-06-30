@@ -33,25 +33,28 @@ Esta é uma página de fã dedicada ao cantor canadense **Daniel Caesar**, desen
 ---
 
 ## 📂 Estrutura do Projeto
+
+```
 otavioalvessilva.github.io/
-├── index.html # Página principal
-├── LICENSE # Licença MIT
-├── README.md # Este arquivo
+├── index.html              # Página principal
+├── LICENSE                 # Licença MIT
+├── README.md               # Este arquivo
 └── assets/
-├── css/
-│ └── style.css # Estilos do site
-├── js/
-│ └── script.js # Interatividade (menu hambúrguer)
-└── images/
-├── AlbumCapa.png
-├── capaSpotify.png
-├── DanielCaesar.png
-├── DCbio.png
-├── Instagram.png
-├── Logo.png
-├── logoSpotify.png
-├── Nav.png
-└── Spotify.png
+    ├── css/
+    │   └── style.css       # Estilos do site
+    ├── js/
+    │   └── script.js       # Interatividade (menu hambúrguer)
+    └── images/
+        ├── AlbumCapa.png
+        ├── capaSpotify.png
+        ├── DanielCaesar.png
+        ├── DCbio.png
+        ├── Instagram.png
+        ├── Logo.png
+        ├── logoSpotify.png
+        ├── Nav.png
+        └── Spotify.png
+```
 
 ---
 
