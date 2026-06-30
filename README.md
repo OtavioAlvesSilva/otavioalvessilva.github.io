@@ -1,97 +1,96 @@
 # 🎵 Daniel Caesar - Fan Page
 
-## 🌐 Acesse o site
-**[Clique aqui para visitar o site](https://otavioalvessilva.github.io)**
+🌐 **Live Demo:** [Click here to visit the site](https://otavioalvessilva.github.io)
 
 ---
 
-## Sobre o Projeto
-Esta é uma página de fã dedicada ao cantor canadense **Daniel Caesar**, desenvolvida como projeto de estudo de **HTML**, **CSS** e **JavaScript**. O site apresenta informações sobre sua biografia, discografia e músicas, com uma interface responsiva e intuitiva.
+## 📖 About the Project
+
+This is a fan page dedicated to the Canadian singer **Daniel Caesar**, developed as a study project for **HTML, CSS, and JavaScript**. The website presents information about his biography, discography, and music, with a responsive and intuitive interface.
 
 ---
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- ✅ **Navegação completa** entre as seções (Início, Biografia, Álbum, Redes Sociais)
-- ✅ **Menu hambúrguer** para dispositivos móveis (JavaScript)
-- ✅ **Embed do Spotify** com o álbum "Freudian"
-- ✅ **Links funcionais** para as redes sociais oficiais do Daniel Caesar
-- ✅ **Design responsivo** adaptado para desktop e mobile
-- ✅ **Link para meu GitHub** no rodapé do site
-
----
-
-## 🛠️ Tecnologias Utilizadas
-
-| Tecnologia | Uso |
-|------------|-----|
-| **HTML5** | Estrutura do site |
-| **CSS3** | Estilização e responsividade |
-| **JavaScript** | Menu hambúrguer e interações |
-| **Spotify Embed** | Player de música integrado |
+- ✅ Full navigation between sections (Home, Biography, Album, Social Media)
+- ✅ Hamburger menu for mobile devices (JavaScript)
+- ✅ Spotify embed with the album *"Freudian"*
+- ✅ Functional links to Daniel Caesar's official social media
+- ✅ Responsive design adapted for desktop and mobile
+- ✅ Link to my GitHub in the footer
 
 ---
 
-## 📂 Estrutura do Projeto
+## 🛠️ Technologies Used
 
-```
+| Technology | Usage |
+|---|---|
+| HTML5 | Website structure |
+| CSS3 | Styling and responsiveness |
+| JavaScript | Hamburger menu and interactions |
+| Spotify Embed | Integrated music player |
+
+---
+
+## 📂 Project Structure
 otavioalvessilva.github.io/
-├── index.html              # Página principal
-├── LICENSE                 # Licença MIT
-├── README.md               # Este arquivo
+├── index.html # Main page
+├── LICENSE # MIT License
+├── README.md # This file
 └── assets/
-    ├── css/
-    │   └── style.css       # Estilos do site
-    ├── js/
-    │   └── script.js       # Interatividade (menu hambúrguer)
-    └── images/
-        ├── AlbumCapa.png
-        ├── capaSpotify.png
-        ├── DanielCaesar.png
-        ├── DCbio.png
-        ├── Instagram.png
-        ├── Logo.png
-        ├── logoSpotify.png
-        ├── Nav.png
-        └── Spotify.png
-```
+├── css/
+│ └── style.css # Website styles
+├── js/
+│ └── script.js # Interactivity (hamburger menu)
+└── images/
+├── AlbumCapa.png
+├── capaSpotify.png
+├── DanielCaesar.png
+├── DCbio.png
+├── Instagram.png
+├── Logo.png
+├── logoSpotify.png
+├── Nav.png
+└── Spotify.png
 
 ---
 
-## 🎯 Objetivos do Projeto
+## 🎯 Project Goals
 
-- Aplicar conhecimentos de HTML semântico
-- Praticar CSS com flexbox e grid
-- Implementar interatividade com JavaScript puro
-- Criar um projeto funcional e visualmente atraente
-- Demonstrar capacidade de estruturação de conteúdo
+- Apply semantic HTML knowledge
+- Practice CSS with Flexbox and Grid
+- Implement interactivity with vanilla JavaScript
+- Create a functional and visually appealing project
+- Demonstrate content structuring skills
 
 ---
 
-## 📱 Responsividade
+## 📱 Responsiveness
 
-O site foi desenvolvido pensando em todos os dispositivos:
+The website was built with all devices in mind:
+
 - 💻 Desktop
 - 📟 Tablet
 - 📱 Smartphones
 
 ---
 
-## 🔗 Links Importantes
+## 🔗 Important Links
 
-- **Site Hospedado:** [https://otavioalvessilva.github.io](https://otavioalvessilva.github.io)
-- **Repositório:** [https://github.com/OtavioAlvesSilva/otavioalvessilva.github.io](https://github.com/OtavioAlvesSilva/otavioalvessilva.github.io)
-- **Redes Sociais do Artista:** Todos os ícones na seção "Redes Sociais" levam para os perfis oficiais do Daniel Caesar
+- **Hosted Site:** [https://otavioalvessilva.github.io](https://otavioalvessilva.github.io)
+- **Repository:** [https://github.com/OtavioAlvesSilva/otavioalvessilva.github.io](https://github.com/OtavioAlvesSilva/otavioalvessilva.github.io)
+- **Artist's Social Media:** All icons in the "Social Media" section link to Daniel Caesar's official profiles
 
 ---
 
-## 👨‍💻 Desenvolvido por
+## 👨‍💻 Developed by
 
 **Otavio Alves**
 
-[![GitHub](https://img.shields.io/badge/GitHub-OtavioAlvesSilva-181717?style=flat&logo=github)](https://github.com/OtavioAlvesSilva)
-
-- Projeto criado com dedicação para estudo de front-end
-- © 2026 - Todos os direitos reservados (conteúdo sobre o artista pertence ao mesmo)
+[GitHub](https://github.com/OtavioAlvesSilva)
 
 ---
+
+*Project created with dedication for front-end study purposes.*
+
+© 2026 - All rights reserved (content about the artist belongs to the artist)
