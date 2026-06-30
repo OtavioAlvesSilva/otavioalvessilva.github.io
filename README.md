@@ -30,30 +30,29 @@ This is a fan page dedicated to the Canadian singer **Daniel Caesar**, developed
 | JavaScript | Hamburger menu and interactions |
 | Spotify Embed | Integrated music player |
 
----
-
 ## 📂 Project Structure
-otavioalvessilva.github.io/
-├── index.html # Main page
-├── LICENSE # MIT License
-├── README.md # This file
-└── assets/
-├── css/
-│ └── style.css # Website styles
-├── js/
-│ └── script.js # Interactivity (hamburger menu)
-└── images/
-├── AlbumCapa.png
-├── capaSpotify.png
-├── DanielCaesar.png
-├── DCbio.png
-├── Instagram.png
-├── Logo.png
-├── logoSpotify.png
-├── Nav.png
-└── Spotify.png
 
----
+```
+otavioalvessilva.github.io/
+├── index.html              # Main page
+├── LICENSE                 # MIT License
+├── README.md               # This file
+└── assets/
+    ├── css/
+    │   └── style.css       # Website styles
+    ├── js/
+    │   └── script.js       # Interactivity (hamburger menu)
+    └── images/
+        ├── AlbumCapa.png
+        ├── capaSpotify.png
+        ├── DanielCaesar.png
+        ├── DCbio.png
+        ├── Instagram.png
+        ├── Logo.png
+        ├── logoSpotify.png
+        ├── Nav.png
+        └── Spotify.png
+```
 
 ## 🎯 Project Goals
 
