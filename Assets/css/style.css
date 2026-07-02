@@ -4,12 +4,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100;14..32,200;14..32,300;14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     margin: 0px;
     padding: 0px;
     background-color: #000000;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 header {
@@ -30,9 +36,8 @@ header {
     margin: 0 auto;
 }
 
-header .logo img {
-    height: 55px;
-    width: auto;
+header .logo {
+    font-size: 20px;
 }
 
 header .menu {
@@ -63,10 +68,10 @@ header ul .line:hover {
     position: relative;
     display: flex;
     justify-content: center;
-    background-position: 70% center;
+    background-position: 50% center;
     background-size: cover;
     background-image: url('../images/DanielCaesar.png');
-    height: 105vh;
+    height: 90vh;
     width: 100%;
 }
 
@@ -89,31 +94,6 @@ header ul .line:hover {
     height: 90vh;
 }
 
-.banner_hero_text1, .banner_hero_text2 {
-    display: flex;
-    align-items: center;
-    color: #c2c5bd;
-    font-size: 50px;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: 'Cormorant Garamond', serif;
-}
-
-.banner_hero_text1 h1 {
-    mask-image: linear-gradient(to right, black 60%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to right, black 60%, transparent 100%);
-    text-align: right;
-    margin-top: 48px;
-}
-
-.banner_hero_text2 h1 {
-    mask-image: linear-gradient(to left, black 60%, transparent 100%);
-    -webkit-mask-image: linear-gradient(to left, black 60%, transparent 100%);
-    text-align: left;
-    margin-top: 48px;
-    margin-left: 10px;
-}
-
 .espace {
     height: 100px;
     width: 100%;
@@ -123,12 +103,12 @@ header ul .line:hover {
 #banner_bio {
     position: relative;
     background-color: #000000;
-    height: 110vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0;
+    padding: 60px 0;
 }
 
 #banner_bio::before {
@@ -229,10 +209,11 @@ header ul .line:hover {
 #banner_album {
     position: relative;
     background-color: #000000;
-    height: 115vh;
+    min-height: 100vh;
     width: 100%;
     display: flex;
     justify-content: center;
+    padding: 60px 0;
 }
 
 #banner_album::before {
@@ -529,7 +510,7 @@ header ul .line:hover {
 
     #banner_hero {
         height: 88vh;
-        background-position: 58% center;
+        background-position: 50% center;
     }
 
     .banner_hero_text1,
@@ -543,7 +524,7 @@ header ul .line:hover {
     }
 
     #banner_bio {
-        height: auto;
+        min-height: auto;
         padding: 100px 0 65px;
     }
 
@@ -585,7 +566,7 @@ header ul .line:hover {
     }
 
     #banner_album {
-        height: auto;
+        min-height: auto;
         padding: 55px 0 50px;
     }
 
@@ -669,35 +650,13 @@ header ul .line:hover {
     }
 
     #banner_hero {
-        background-position: 0% center;
+        background-position: 50% center;
     }
 
     .hero {
         flex-direction: column;
         justify-content: center;
         gap: 6px;
-    }
-
-    .banner_hero_text1 h1 {
-        mask-image: none;
-        -webkit-mask-image: none;
-        text-align: center;
-        margin-top: 0;
-    }
-
-    .banner_hero_text2 h1 {
-        mask-image: none;
-        -webkit-mask-image: none;
-        text-align: center;
-        margin-top: 0;
-        margin-left: 0;
-    }
-
-    .banner_hero_text1,
-    .banner_hero_text2 {
-        font-size: 40px;
-        justify-content: center;
-        margin-bottom: 0;
     }
 
     .espace {
@@ -770,18 +729,23 @@ header ul .line:hover {
     }
 
     .banner_album_img {
-        display: none;
+        display: flex;
     }
 
     .banner_album_img img {
         margin-top: 0px;
         padding-top: 0px;
-        height: 100px;
-        width: 100px;
+        height: 40vh;
+        width: 90vw;
     }
 
     .banner_album_spotify {
         width: 100%;
+    }
+
+    .banner_album_spotify iframe {
+        height: 46vh;
+        width: 90vw;
     }
 
     .banner_subtittle_img_album h6 {
